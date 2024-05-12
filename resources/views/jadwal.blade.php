@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
-    <div class="grid grid-cols-[auto_auto_auto]">
+    <div class="grid lg:grid-cols-[auto_auto_auto] md:grid-cols-[auto_auto]">
 
         <div class="max-w-[600px] overflow-hidden mx-auto my-[50px]">
             <div class="bg-white shadow-[0_0_10px_rgba(0,0,0,0.1)] rounded-[10px] p-5">

@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
-  <div class="grid grid-cols-[auto_auto_auto]">
+  <div class="grid lg:grid-cols-[auto_auto_auto] grid-cols-[auto]">
 
     <div class="max-w-[600px] bg-white overflow-hidden shadow-[0_0_10px_rgba(0,0,0,0.1)] mx-auto my-[50px] rounded-[10px]">
       <div class="flex justify-center">
@@ -38,9 +38,9 @@
     </div>
 
 
-    <div class="col-[2_/_4] max-w-[600px] mx-auto my-[50px]">
+    <div class="lg:col-[2_/_4] max-w-[600px] mx-auto my-[50px] col-[1_/_2  ]">
       <div>
-        <div class="bg-white overflow-hidden shadow-md mx-auto my-8 rounded-lg px-6 py-4 mt-0">
+        <div class="bg-white overflow-hidden shadow-md lg:mx-auto mx-5 my-8 rounded-lg px-6 py-4 mt-0">
           <div class="flex">
             <span class="material-symbols-outlined p-1.5">
               info
@@ -75,7 +75,7 @@
           </div>
         </div>
 
-        <div class="max-w-[600px] bg-white overflow-hidden shadow-md mx-auto my-8 rounded-lg px-6 py-4">
+        <div class="max-w-[600px] bg-white overflow-hidden shadow-md lg:mx-auto mx-5 my-8 rounded-lg px-6 py-4">
           <div class="flex">
             <span class="material-symbols-outlined p-1.5">
               info
