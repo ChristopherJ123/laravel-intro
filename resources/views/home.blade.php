@@ -3,7 +3,7 @@
 @section('container')
   <div class="grid lg:grid-cols-[auto_auto_auto] grid-cols-[auto]">
 
-    <div class="max-w-[600px] bg-white overflow-hidden shadow-[0_0_10px_rgba(0,0,0,0.1)] mx-auto my-[50px] rounded-[10px]">
+    <div class="max-w-[600px] bg-white overflow-hidden shadow-[0_0_10px_rgba(0,0,0,0.1)] lg:mr-0 mx-auto my-[50px] rounded-[10px] flex flex-col">
       <div class="flex justify-center">
         <img class="w-[200px] h-[200px] mt-5 rounded-[50%]" src="{{ asset('img/photo.png') }}" alt="Profile Picture">
       </div>
@@ -86,8 +86,30 @@
         </div>
       </div>
     </div>
+
+    <div class="lg:col-[1_/_4] col-[1_/_2] mx-auto">
+      <div class="lg:max-w-[1200px] bg-white overflow-hidden shadow-[0_0_10px_rgba(0,0,0,0.1)] lg:mx-auto mx-5 my-8 rounded-lg px-6 py-4 flex flex-col flex-wrap">
+        <div class="flex">
+          <span class="material-symbols-outlined py-1 pr-1">
+            public
+          </span>
+          <p class="text-lg mb-[5px]">My youtube channel :D </p>
+        </div>
+          <div class="grid lg:grid-cols-[auto_auto_auto] md:grid-cols-[auto_auto]">
+              <iframe class="latestVideoEmbed" vnum='0' cid="UC4ZIYVSrF-OFJ-9uqbeHSzA" allowfullscreen></iframe>
+              <iframe class="latestVideoEmbed" vnum='1' cid="UC4ZIYVSrF-OFJ-9uqbeHSzA" allowfullscreen></iframe>
+              <iframe class="latestVideoEmbed" vnum='2' cid="UC4ZIYVSrF-OFJ-9uqbeHSzA" allowfullscreen></iframe>
+              <iframe class="latestVideoEmbed" vnum='3' cid="UC4ZIYVSrF-OFJ-9uqbeHSzA" allowfullscreen></iframe>
+              <iframe class="latestVideoEmbed" vnum='4' cid="UC4ZIYVSrF-OFJ-9uqbeHSzA" allowfullscreen></iframe>
+              <iframe class="latestVideoEmbed" vnum='5' cid="UC4ZIYVSrF-OFJ-9uqbeHSzA" allowfullscreen></iframe>
+          </div>
+      </div>
+  </div>
+
+  </div>
     
   </div>
+  <script src="{{ asset('js/youtube.js') }}"></script>
   <script src="{{ asset('js/image-zoom.js') }}"></script>
 @endsection
 
