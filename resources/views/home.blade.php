@@ -3,7 +3,7 @@
 @section('container')
   <div class="grid grid-cols-[auto_auto_auto]">
 
-    <div class="max-w-[600px] bg-white overflow-hidden shadow-[0_0_10px_rgba(0,0,0,0.1)] mx-auto my-[50px] rounded-[10px] ">
+    <div class="max-w-[600px] bg-white overflow-hidden shadow-[0_0_10px_rgba(0,0,0,0.1)] mx-auto my-[50px] rounded-[10px]">
       <div class="flex justify-center">
         <img class="w-[200px] h-[200px] mt-5 rounded-[50%]" src="{{ asset('img/photo.png') }}" alt="Profile Picture">
       </div>
@@ -11,25 +11,25 @@
         <h1 class="text-2xl mb-2.5 font-bold">Christopher Joshua</h1>
         <p class="text-lg mb-[5px]">C14230260</p>
         <div class="flex">
-          <span class="material-symbols-outlined">
+          <span class="material-symbols-outlined py-1 pr-1">
             school
             </span>
             <p class="text-lg mb-[5px]">Data Science & Analytics</p>
           </div>
         <div class="flex">
-          <span class="material-symbols-outlined">
+          <span class="material-symbols-outlined py-1 pr-1">
             location_city
             </span>
           <p class="text-lg mb-[5px]">Surabaya, Indonesia</p>
         </div>
         <div class="flex">
-          <span class="material-symbols-outlined">
+          <span class="material-symbols-outlined py-1 pr-1">
             calendar_month
             </span>
           <p class="text-lg mb-[5px]">19 Years Old</p>
         </div>
         <div class="flex">
-          <span class="material-symbols-outlined">
+          <span class="material-symbols-outlined py-1 pr-1">
             history_edu
             </span>
           <p class="text-lg mb-[5px]">Currently student @ PCU</p>
@@ -42,7 +42,7 @@
       <div>
         <div class="bg-white overflow-hidden shadow-md mx-auto my-8 rounded-lg px-6 py-4 mt-0">
           <div class="flex">
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined p-1.5">
               info
             </span>
             <h3 class="text-2xl mb-2.5 font-bold">General Information</h3>
@@ -77,7 +77,7 @@
 
         <div class="max-w-[600px] bg-white overflow-hidden shadow-md mx-auto my-8 rounded-lg px-6 py-4">
           <div class="flex">
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined p-1.5">
               info
             </span>
             <h3 class="text-2xl mb-2.5 font-bold">Other Information</h3>
