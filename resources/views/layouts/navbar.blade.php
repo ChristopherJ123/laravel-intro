@@ -17,6 +17,7 @@
                 <div class="hidden md:flex items-center space-x-1">
                     <a href="/home" class="py-5 px-3">Home</a>
                     <a href="/jadwal" class="py-5 px-3">Jadwal</a>
+                    <a href="/mahasiswa" class="py-5 px-3">Mahasiswa</a>
                 </div>
             </div>
 
